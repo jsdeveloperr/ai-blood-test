@@ -6,6 +6,7 @@ import Footer from './Footer';
 import HealthCheckModal from './HealthCheckModal';
 import UploadButton from './UploadButton';
 import { useState, useRef } from 'react';
+import Image from 'next/image';
 
 const Content = () => {
   const [file, setFile] = useState(null);
@@ -40,7 +41,7 @@ const Content = () => {
             <div className="nav__logo">
               <Link href="/" legacyBehavior>
                 <a aria-label="home page" title="logo">
-                  <img src="/images/logo-four.png" alt="Image" />
+                  <Image src="/images/logo-four.png" alt="Image" width={500} height={500} />
                 </a>
               </Link>
             </div>
@@ -93,7 +94,7 @@ const Content = () => {
             </div>
             <div className="col-12 col-lg-5 offset-lg-1 col-xxl-5 offset-xxl-1 d-none d-lg-block">
               <div className="banner-four__thumb">
-                <img src="/images/svg/ai-blood-test.svg" alt="Image" className="unset" />
+                <Image src="/images/svg/ai-blood-test.svg" alt="Image" className="unset" width={500} height={500} />
               </div>
             </div>
           </div>
@@ -152,7 +153,7 @@ const Content = () => {
                   <i className="fa-solid fa-star"></i>
                   <i className="fa-solid fa-star"></i>
                 </div>
-                <img src="/images/review/icon-one.png" alt="Image" />
+                <Image src="/images/review/icon-one.png" alt="Image" width={500} height={500} />
               </div>
               <div className="review-content">
                 <p className="fw-7">
@@ -161,7 +162,7 @@ const Content = () => {
               </div>
               <div className="review-meta">
                 <div className="thumb">
-                  <img src="/images/review/one.png" alt="Image" />
+                  <Image src="/images/review/one.png" alt="Image" width={500} height={500} />
                 </div>
                 <div className="content">
                   <p className="h6">John D.</p>
@@ -178,7 +179,7 @@ const Content = () => {
                   <i className="fa-solid fa-star"></i>
                   <i className="fa-solid fa-star"></i>
                 </div>
-                <img src="/images/review/icon-two.png" alt="Image" />
+                <Image src="/images/review/icon-two.png" alt="Image" width={500} height={500} />
               </div>
               <div className="review-content">
                 <p className="fw-7">
@@ -187,7 +188,7 @@ const Content = () => {
               </div>
               <div className="review-meta">
                 <div className="thumb">
-                  <img src="/images/review/two.png" alt="Image" />
+                  <Image src="/images/review/two.png" alt="Image" width={500} height={500} />
                 </div>
                 <div className="content">
                   <p className="h6">Marcus G.</p>
@@ -204,16 +205,16 @@ const Content = () => {
                   <i className="fa-solid fa-star"></i>
                   <i className="fa-solid fa-star"></i>
                 </div>
-                <img src="/images/review/icon-three.png" alt="Image" />
+                <Image src="/images/review/icon-three.png" alt="Image" width={500} height={500} />
               </div>
               <div className="review-content">
                 <p className="fw-7">
-                I used to struggle with interpreting my blood tests, but now it's so simple. The interpretations are fast and reliable!
+                I used to struggle with interpreting my blood tests, but now it&apos;s so simple. The interpretations are fast and reliable!
                 </p>
               </div>
               <div className="review-meta">
                 <div className="thumb">
-                  <img src="/images/review/two.png" alt="Image" />
+                  <Image src="/images/review/two.png" alt="Image" width={500} height={500} />
                 </div>
                 <div className="content">
                   <p className="h6">Emily R.</p>
@@ -230,16 +231,16 @@ const Content = () => {
                   <i className="fa-solid fa-star"></i>
                   <i className="fa-solid fa-star"></i>
                 </div>
-                <img src="/images/review/icon-one.png" alt="Image" />
+                <Image src="/images/review/icon-one.png" alt="Image" width={500} height={500} />
               </div>
               <div className="review-content">
                 <p className="fw-7">
-                I used to struggle with interpreting my blood tests, but now it's so simple. The interpretations are fast and reliable!
+                I used to struggle with interpreting my blood tests, but now it&apos;s so simple. The interpretations are fast and reliable!
                 </p>
               </div>
               <div className="review-meta">
                 <div className="thumb">
-                  <img src="/images/review/two.png" alt="Image" />
+                  <Image src="/images/review/two.png" alt="Image" width={500} height={500} />
                 </div>
                 <div className="content">
                   <p className="h6">Roderick D.</p>
