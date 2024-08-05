@@ -53,7 +53,7 @@ const ResultModal = ({ result, onClose }) => {
         </div>
         <div className="fixed bottom-0 left-0 right-0 bg-white p-4 border-t">
           <div className="flex justify-end">
-            <button onClick={onClose} className="px-4 py-2 bg-blue-700 text-white rounded-lg">Kapat</button>
+            <button onClick={onClose} className="w-full px-4 py-2 bg-blue-700 text-white rounded-lg">Kapat</button>
           </div>
         </div>
       </div>
