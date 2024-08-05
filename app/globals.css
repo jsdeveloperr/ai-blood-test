@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* styles/global.css */
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-60 {
+  z-index: 60;
+}
+
+.faq-light .accordion-item .accordion-body p {
+  color: #111827;
+}
