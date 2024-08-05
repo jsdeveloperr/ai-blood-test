@@ -1,6 +1,5 @@
 import Script from 'next/script';
 import Content from '../components/Content';
-import HealthCheckModal from '../components/HealthCheckModal';
 
 export default function Home() {
   return (
