@@ -3,7 +3,7 @@ export const fetchOpenAIResponse = async (prompt) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
+        "Authorization": `Bearer sk-proj-lHff5LT7pjMC7V6Y4L4dT3BlbkFJiojpBigxJtDhJmzpKAYl`,
       },
       body: JSON.stringify({
         model: "gpt-4o-mini",
