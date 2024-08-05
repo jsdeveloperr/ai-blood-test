@@ -11,6 +11,7 @@
     "touch": "touch public/css/main.min.css.map touch public/js/bootstrap.bundle.min.js.map touch public/js/typed.umd.js.map"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "file-saver": "^2.0.5",
     "next": "14.2.5",
     "react": "^18",
