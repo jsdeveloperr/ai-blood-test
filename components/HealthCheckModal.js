@@ -1,8 +1,6 @@
-// components/HealthCheckModal.js
-
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { handleFileChange, handleSubmit } from '../utils/content';
 import ResultModal from './ResultModal';
 

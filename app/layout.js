@@ -3,7 +3,7 @@ import "./globals.css";
 import '../public/css/all.min.css';
 import '../public/css/animate.css';
 import '../public/css/bootstrap.min.css';
-import '../public/css/glyphter.css'; // Changed to lowercase
+import '../public/css/glyphter.css';
 import '../public/css/magnific-popup.css';
 import '../public/css/main.min.css';
 import '../public/css/nice-select.css';

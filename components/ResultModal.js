@@ -1,5 +1,3 @@
-// components/ResultModal.js
-
 'use client';
 
 import React, { useEffect } from 'react';
