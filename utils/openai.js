@@ -3,7 +3,7 @@ export const fetchOpenAIResponse = async (prompt) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer sk-proj-lHff5LT7pjMC7V6Y4L4dT3BlbkFJiojpBigxJtDhJmzpKAYl`,
+        "Authorization": `Bearer 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`,
       },
       body: JSON.stringify({
         model: "gpt-4o-mini",
