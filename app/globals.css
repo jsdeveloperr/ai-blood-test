@@ -48,5 +48,9 @@ body {
 }
 
 .faq-light .accordion-item .accordion-body p {
-  color: #111827;
+  color: #414141 !important;
+}
+
+.collapse {
+  visibility: visible !important;
 }

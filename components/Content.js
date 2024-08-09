@@ -89,7 +89,7 @@ const Content = () => {
                 <p className="fw-5">
                 Get Clear, Accurate Explanations for Your Blood Tests  Save time and avoid confusion with expert interpretations of your blood test results.
                 </p>
-                <UploadButton handleFileUploadClick={handleFileUploadClick} />
+                {/* <UploadButton handleFileUploadClick={handleFileUploadClick} /> */}
               </div>
             </div>
             <div className="col-12 col-lg-5 offset-lg-1 col-xxl-5 offset-xxl-1 d-none d-lg-block">
@@ -143,8 +143,8 @@ const Content = () => {
           </div>
         </div> */}
         <div className="testimonial__slider-wrapper">
-          <div className="nt-slider">
-            <div className="review__single">
+          <div className="nt-slider flex flex-wrap w-full gap-2 justify-center">
+            <div className="review__single col-sm-12 col-md-4 col-lg-3" style={{ opacity: 1}}>
               <div className="review-head">
                 <div className="review__icons">
                   <i className="fa-solid fa-star"></i>
@@ -170,7 +170,7 @@ const Content = () => {
                 </div>
               </div>
             </div>
-            <div className="review__single">
+            <div className="review__single col-sm-12 col-md-4 col-lg-3" style={{ opacity: 1}}>
               <div className="review-head">
                 <div className="review__icons">
                   <i className="fa-solid fa-star"></i>
@@ -196,7 +196,7 @@ const Content = () => {
                 </div>
               </div>
             </div>
-            <div className="review__single">
+            <div className="review__single col-sm-12 col-md-4 col-lg-3" style={{ opacity: 1}}>
               <div className="review-head">
                 <div className="review__icons">
                   <i className="fa-solid fa-star"></i>
@@ -222,7 +222,7 @@ const Content = () => {
                 </div>
               </div>
             </div>
-            <div className="review__single">
+            <div className="review__single col-sm-12 col-md-4 col-lg-3" style={{ opacity: 1}}>
               <div className="review-head">
                 <div className="review__icons">
                   <i className="fa-solid fa-star"></i>
@@ -251,6 +251,8 @@ const Content = () => {
           </div>
         </div>
       </section>
+      <div/>
+      
       <section className="section faq faq-light pb-0">
         <div className="container">
           <div className="row justify-content-center">
@@ -283,7 +285,7 @@ const Content = () => {
                     data-bs-parent="#accordion"
                   >
                     <div className="accordion-body">
-                      <p>
+                      <p style={{color: '#111827'}}>
                       Our AI algorithms provide accurate interpretations based on up-to-date medical data
                       </p>
                     </div>

@@ -632,7 +632,7 @@
     }
 
     .accordion-button:not(.collapsed) {
-      color: $septenary-color;
+      color: #414141 !important;
       background-color: transparent;
       border-radius: 10px 10px 0px 0px;
 
@@ -690,7 +690,7 @@
     border-top: 0px solid transparent;
 
     p {
-      color: $white;
+      color: #111827;
       text-transform: capitalize;
       max-width: 1200px;
     }
@@ -700,7 +700,7 @@
 .faq-two {
   .accordion-item {
     .accordion-button:not(.collapsed) {
-      color: $quinary-color;
+      color: #414141 !important;
     }
   }
 
@@ -774,7 +774,7 @@
 .faq-three {
   .accordion-item {
     .accordion-button:not(.collapsed) {
-      color: $septenary-color;
+      color: #414141 !important;
       &::after {
         color: $septenary-color;
       }
@@ -794,7 +794,7 @@
     }
 
     .accordion-button:not(.collapsed) {
-      color: $primary-color;
+      color: #414141 !important;
       &::after {
         color: $primary-color;
       }
@@ -802,7 +802,7 @@
 
     .accordion-body {
       p {
-        color: $theme-color;
+        color: #111827;
       }
     }
   }
@@ -1002,7 +1002,7 @@
     border-radius: 20px;
     transition: all 0.2s ease-in;
     max-width: 450px;
-    opacity: 0.2;
+    opacity: 1;
   }
 
   .review-head {
@@ -3523,7 +3523,7 @@
   .faq-light {
     .accordion-item {
       .accordion-button:not(.collapsed) {
-        color: $quinary-color;
+        color: #414141 !important;
         &::after {
           color: $quinary-color;
         }
@@ -4153,7 +4153,7 @@
       color: white;
     }
     .accordion .accordion-item .accordion-button:not(.collapsed)::after {
-      color: $primary-color;
+      color: #414141 !important;
     }
   }
 
@@ -4565,7 +4565,7 @@
       color: white;
     }
     .accordion-item .accordion-button:not(.collapsed) {
-      color: $primary-color;
+      color: #414141 !important;
       &::after {
         color: $primary-color;
       }
@@ -5297,16 +5297,16 @@
   }
 
   .faq-light .accordion-item .accordion-body p {
-    color: #414141;
+    color: #414141 !important;
   }
   .faq-light .accordion-item .accordion-button {
     font-weight: 700;
   }
 
   .faq-light .accordion-item .accordion-button:not(.collapsed) {
-    color: #181818;
+    color: #414141 !important;
     &::after {
-      color: #181818;
+      color: #414141 !important;
     }
   }
 
@@ -5591,9 +5591,9 @@
   }
 
   .faq-two .accordion-item .accordion-button:not(.collapsed) {
-    color: #e6f85e;
+    color: #414141 !important;
     &::after {
-      color: #e6f85e;
+      color: #414141 !important;
     }
   }
 
@@ -6039,7 +6039,7 @@
   }
 
   .accordion .accordion-item .accordion-button:not(.collapsed) {
-    color: $primary-color;
+    color: #414141 !important;
   }
 
   .accordion-item {
@@ -6244,16 +6244,16 @@
       }
 
       .accordion-button:not(.collapsed) {
-        color: $primary-color;
+        color: #414141 !important;
         &::after {
-          color: $primary-color;
+          color: #414141 !important;
         }
       }
 
       .accordion-body {
         padding: 0px 30px 30px 30px;
         p {
-          color: #414141;
+          color: #414141 !important;
         }
       }
     }
@@ -6854,20 +6854,20 @@
       border-color: #414141;
       .accordion-body {
         p {
-          color: #d9d9d9;
+          color: #414141 !important;
         }
       }
 
       .accordion-button {
-        color: $white;
+        color: #414141 !important;
         &::after {
-          color: $white;
+          color: #414141 !important;
         }
       }
       .accordion-button:not(.collapsed) {
-        color: $white;
+        color: #414141 !important;
         &::after {
-          color: $white;
+          color: #414141 !important;
         }
       }
     }
@@ -6935,7 +6935,7 @@
 
   .faq {
     .accordion-item .accordion-button:not(.collapsed) {
-      color: $primary-color;
+      color: #414141 !important;
     }
   }
 
@@ -7322,9 +7322,9 @@
 
   .faq {
     .accordion-item .accordion-button:not(.collapsed) {
-      color: $primary-color;
+      color: #414141 !important;
       &::after {
-        color: $primary-color;
+        color: #414141 !important;
       }
     }
   }

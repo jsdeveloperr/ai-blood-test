@@ -256,11 +256,11 @@ const Header = () => {
           <a className="btn btn--secondary">Start Analysis</a>
         </Link>
       </div>
-      <button className="nav__bar d-block d-xl-none">
+      {/* <button className="nav__bar d-block d-xl-none">
         <span className="icon-bar top-bar"></span>
         <span className="icon-bar middle-bar"></span>
         <span className="icon-bar bottom-bar"></span>
-      </button>
+      </button> */}
     </div>
   </div>
 </nav>

@@ -20,7 +20,7 @@ const HealthCheckModal = ({ file, setFile, fileInputRef }) => {
   return (
 <>
 <div className="flex flex-wrap w-full">
-      <div className="col-12 col-sm-6 w-1/2 pr-4 bg-white p-4 rounded-lg shadow-md">
+      <div className="col-lg-6 col-md-12 col-sm-12 pr-4 bg-white p-4 rounded-lg shadow-md">
         <h2 className="text-xl font-bold mb-4 text-black">Report Input</h2>
         <form onSubmit={(e) => handleSubmit(e, file, setLoading, setResult)} className="flex flex-col items-center">
           <input
@@ -45,7 +45,7 @@ const HealthCheckModal = ({ file, setFile, fileInputRef }) => {
           </button>
         </form>
       </div>
-      <div className="col-12 col-sm-6 w-1/2 pl-4">
+      <div className="col-lg-6 col-md-12 col-sm-12 sm:pt-8 lg:pt-0 lg:pl-4">
         <div className="bg-white p-4 rounded-lg shadow-md min-h-48 flex flex-col">
             {result ? (<div className="mt-2 mb-3 rounded overflow-auto text-black flex items-center justify-between">
               <h3 className="text-lg font-semibold">Raporun Çıktısı:</h3>
@@ -55,8 +55,12 @@ const HealthCheckModal = ({ file, setFile, fileInputRef }) => {
               >
                 Tam Ekran Yap
               </span>
-            </div>) : <h2 className="text-xl font-bold mb-4 text-black">{'Report Output'}</h2>}
-          <pre className="text-sm text-gray-400">Raporunuza göre bazı önemli değerleri inceleyelim<br/>ve ne anlama geldiklerini açıklayalım:</pre>
+            </div>) :
+          <>
+           <h2 className="text-xl font-bold mb-4 text-black">{'No Report Output'}</h2> 
+           <pre className="text-sm text-gray-400">Raporunuza göre bazı önemli değerleri inceleyelim<br/>ve ne anlama geldiklerini açıklayalım:</pre>
+          </>
+           }
           {result ? (
             <>
             <pre className="text-sm text-gray-500">{truncatedResult}</pre>
@@ -67,7 +71,7 @@ const HealthCheckModal = ({ file, setFile, fileInputRef }) => {
 
           ) : (
             <div className="flex-grow flex items-center justify-center text-gray-400">
-              No report output available
+              No report process has been initiated yet
             </div>
           )}
         </div>
